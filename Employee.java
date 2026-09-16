@@ -33,5 +33,8 @@ public class Employee {
     public String getPosition(){
         return this.position;
     }
-    public void displayDat
+    public void displayData(){
+        System.out.printf("%-30s%-30d%-30s%-30s%n", name, idNumber, department, position);
+    }
 }
+
