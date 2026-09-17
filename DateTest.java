@@ -5,5 +5,5 @@ public class DateTest {
         date1.format1();
         date1.format2();
         date1.format3();
-    }
+    } 
 }

@@ -9,12 +9,12 @@ public class Employee {
         this.department = department;
         this.position = position;
     }
-    public Employee(String name, int idNumber){
+    public Employee(String name, int idNumber){ 
         this.name = name;
         this.idNumber = idNumber;
         this.department = "";
         this.position = "";
-    }
+    } 
     public Employee(){
         this.name = "";
         this.idNumber = 0;

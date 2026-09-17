@@ -12,7 +12,7 @@ public class Date {
             System.out.println("Please ensure it is an integer greater than 0 and less than 31");
             System.out.println("What is the day in '00' formatting?");
             this.day = input.nextInt();
-        }
+        } 
         System.out.println("What is the month in '00' formatting?");
         this.month = input.nextInt();
         while( month < 1 || month >12){
